@@ -1,22 +1,26 @@
 import React, { Component, Fragment } from 'react';
-import { Button, Card, Container, Row } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Card, Container, Row } from 'react-bootstrap';
 import './style.css';
+
+const styles = {
+    heading: {
+        fontWeight: 900,
+        fontSize: "2rem"
+    }
+}
 
 class Wrapper extends Component {
 
     render() {
-        const { title } = this.props;
+
         return (
             <Fragment>
                 <Container fluid>
                     <Row className="justify-content-md-center">
                         <Card className="text-center">
-                            <Card.Header>{title}
-
-                            </Card.Header>
+                            <Card.Header style={styles.heading}>Kin Kam Zhao</Card.Header>
                             <Card.Body>
-                                {this.props.children}
+                               {this.props.children}
                             </Card.Body>
                         </Card>
                     </Row>

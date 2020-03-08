@@ -1,9 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import Wrapper from '../../Component/Wrapper';
-import { Container, Row, Image, Col } from 'react-bootstrap';
-import { Button, Card } from 'react-bootstrap';
+import { Container, Row, Image, Col, Card } from 'react-bootstrap';
 import './style.css';
-import image from '../../Images/profile-pic.jpg'
+import image from '../../Images/profile-pic.jpg';
 
 const styles = {
   image: {
@@ -12,6 +11,11 @@ const styles = {
   text: {
     textAlign: 'left',
     fontWeight: 700,
+  },
+  title: {
+    textAlign: 'center',
+    fontWeight: 750,
+    padding: '1rem'
   }
 }
 
@@ -28,10 +32,13 @@ class AboutMe extends Component {
     return (
       <Fragment>
         <Wrapper
-          title={'About Me'}
         >
-          <Card.Title></Card.Title>
           <Container>
+            <Row>
+              <Col lg={12}>
+                <h3 style={styles.title}>About Me</h3>
+              </Col>
+            </Row>
             <Row>
               <Col sm={'auto'} md={3} lg={3}>
                 {this.state.photo}

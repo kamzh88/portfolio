@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Wrapper from '../../Component/Wrapper';
-import { Container, Row, Image, Col } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import { Button, Card } from 'react-bootstrap';
 import './style.css';
 
@@ -23,7 +23,9 @@ class Contact extends Component {
           <Card.Title></Card.Title>
           <Container>
             <Row>
+              <Col>
 
+              </Col>
             </Row>
           </Container>
         </Wrapper>
