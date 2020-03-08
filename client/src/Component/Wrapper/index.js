@@ -6,24 +6,18 @@ import './style.css';
 class Wrapper extends Component {
 
     render() {
-
-        const { title, children, photo } = this.props
-
+        const { title } = this.props;
         return (
             <Fragment>
-                <Container>
+                <Container fluid>
                     <Row className="justify-content-md-center">
                         <Card className="text-center">
-                            <Card.Header>{title}</Card.Header>
+                            <Card.Header>{title}
+
+                            </Card.Header>
                             <Card.Body>
-                                <Card.Title></Card.Title>
-                                <Card.Text>
-                                    {photo}
-                                    {children}
-                                </Card.Text>
-                                {/* <Button variant="primary">Go somewhere</Button> */}
+                                {this.props.children}
                             </Card.Body>
-                            {/* <Card.Footer className="text-muted">Kin Kam Zhao</Card.Footer> */}
                         </Card>
                     </Row>
                 </Container>
