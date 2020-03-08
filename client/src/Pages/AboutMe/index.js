@@ -1,29 +1,44 @@
 import React, { Component, Fragment } from 'react';
-import { Button, Card, Container, Row } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Wrapper from '../../Component/Wrapper';
+import { Button, Card, Container, Row, Image, Col } from 'react-bootstrap';
 import './style.css';
+import image from '../../Images/profile-pic.jpg'
+
+const styles = {
+  image: {
+    maxHeight: '15rem',
+  },
+  text: {
+    textAlign: 'left'
+  }
+}
 
 class AboutMe extends Component {
 
+  state = {
+    photo: ''
+  }
+
   render() {
+
+    this.state.photo = <Image style={styles.image} src={image} fluid />;
 
     return (
       <Fragment>
-        <Container>
-          <Row className="justify-content-md-center">
-            <Card className="text-center">
-              <Card.Header>About Me</Card.Header>
-              <Card.Body>
-                <Card.Title>Special title treatment</Card.Title>
-                <Card.Text>
-                  With supporting text below as a natural lead-in to additional content.
-                                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-              <Card.Footer className="text-muted">2 days ago</Card.Footer>
-            </Card>
-          </Row>
-        </Container>
+        <Wrapper
+          title={'About Me'}
+        >
+          <Container fluid>
+            <Row>
+              <Col xs={3}>
+                {this.state.photo}
+              </Col>
+              <Col xs={8} style={styles.text}>
+                {this.text = 'text'}
+              </Col>
+            </Row>
+          </Container>
+        </Wrapper>
       </Fragment>
     );
   }
