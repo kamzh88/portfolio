@@ -1,32 +1,44 @@
 [
-    {
-        "id": 1,
-        "name": "Employee Management Application",
-        "url": "https://hidden-mesa-65153.herokuapp.com/"
-    },
-    {
-        "id": 2,
-        "name": "Google Book Search",
-        "url": "https://shrouded-beach-69257.herokuapp.com/"
-    },
-    {
-        "id": 3,
-        "name": "Clicky Game",
-        "url": "https://kamzh88.github.io/Facescape.github.io/"
-    },
-    {
-        "id": 4,
-        "name": "POS System",
-        "url": "https://guarded-brook-31180.herokuapp.com/"
-    },
-    {
-        "id": 5,
-        "name": "News Scraping Application",
-        "url": "https://dry-journey-57913.herokuapp.com/"
-    },
-    {
-        "id": 6,
-        "name": "Artist Discovery",
-        "url": "https://kamzh88.github.io/artistdiscovery.github.io/"
-    }
+  {
+    "id": 1,
+    "name": "Employee Management Application",
+    "url": "https://hidden-mesa-65153.herokuapp.com/",
+    "summary": "Help business store employee information and help managers manage employees weekly schedule in an easy to use format.",
+    "tools": "ReactJS, Axios, Express, Node, Firebase, Mongoose, Robo 3T, Nodemon, Concurrently, React Bootstrap, Moment, Material-UI, Syncfusion, Dotenv, NPM, Heroku, VsCode, CSS, and Github"
+  },
+  {
+    "id": 2,
+    "name": "Google Book Search",
+    "url": "https://shrouded-beach-69257.herokuapp.com/",
+    "summary": "This application searches for books and save a list of books that the user might be interested in buying or reading.",
+    "tools": "React, Mongoose, Node.js, Express.js, CSS, React-Bootstrap, Material-UI-Bootstrap, Axios, Dotenv, Robo3T, VsCode, Github, Heroku, Google Books API"
+  },
+  {
+    "id": 3,
+    "name": "Clicky Game",
+    "url": "https://kamzh88.github.io/Facescape.github.io/",
+    "summary": "",
+    "tools": ""
+  },
+  {
+    "id": 4,
+    "name": "POS System",
+    "url": "https://guarded-brook-31180.herokuapp.com/",
+    "summary": "Using my restaurant experience to create a better Point of Sale System (POS). To use this application you would need a login password that must be create using the manager password. There is also a password to login as a cashier so that you do not see the manager settings. The current manager password is 8 and cashier password is 0.",
+    "tools": "JQuery, Node, API, Moment, Axios, MySQL, Express, CSS, Bootstrap, VsCode, GitHub, Heroku"
+  },
+  {
+    "id": 5,
+    "name": "News Scraping Application",
+    "url": "https://dry-journey-57913.herokuapp.com/",
+    "summary": "",
+    "tools": ""
+  },
+  {
+    "id": 6,
+    "name": "Artist Discovery",
+    "url": "https://kamzh88.github.io/artistdiscovery.github.io/",
+    "summary": "",
+    "tools": ""
+  }
 ]
