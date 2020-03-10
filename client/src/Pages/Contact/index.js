@@ -1,15 +1,13 @@
-import React, { Component, Fragment } from 'react';
-import Wrapper from '../../Component/Wrapper';
-import { TextField, Typography, Button, Grid } from '@material-ui/core/';
-import './style.css';
+import React, { Component, Fragment } from "react";
+import Wrapper from "../../Component/Wrapper";
+import { TextField, Typography, Button, Grid } from "@material-ui/core/";
+import "./style.css";
 
 const styles = {
   text: {
     marginBottom: 10
   },
-  message: {
-
-  },
+  message: {},
   form: {
     display: "flex",
     flexDirection: "column",
@@ -20,39 +18,42 @@ const styles = {
   spacing: {
     padding: "0.5rem"
   }
-}
+};
 
 class Contact extends Component {
-
   state = {
-    name: '',
-    email: '',
-    message: ''
-  }
+    name: "",
+    email: "",
+    message: ""
+  };
 
   handleChange = key => e => {
-    this.setState({ [key]: e.target.value })
-  }
+    this.setState({ [key]: e.target.value });
+  };
 
   render() {
-
     // const { name, email, message } = this.state;
 
     return (
       <Fragment>
-        <Wrapper
-        >
-
-          <Typography variant="h6">
-            Contact Infomation:
-              </Typography>
+        <Wrapper>
+          <Typography variant="h6">Contact Infomation:</Typography>
           <br></br>
 
           <div>
-            <h7>Phone Number: <a href="tel:862-208-2672">(862)-208-2672</a></h7><br></br>
-            <h7 style={styles.spacing}><a href={"mailto:" + 'kamzh1988@gmail.com'}>Email</a></h7>
-            <h7 style={styles.spacing}><a href="https://www.linkedin.com/in/kinzhao/">LinkedIn</a></h7>
-            <h7 style={styles.spacing}><a href="https://github.com/kamzh88">Github</a></h7>
+            <h7>
+              Phone Number: <a href="tel:862-208-2672">(862)-208-2672</a>
+            </h7>
+            <br></br>
+            <h7 style={styles.spacing}>
+              <a href={"mailto:" + "kamzh1988@gmail.com"}>Email</a>
+            </h7>
+            <h7 style={styles.spacing}>
+              <a href="https://www.linkedin.com/in/kinzhao/">LinkedIn</a>
+            </h7>
+            <h7 style={styles.spacing}>
+              <a href="https://github.com/kamzh88">Github</a>
+            </h7>
           </div>
 
           {/* <Grid container spacing={3}>
@@ -118,7 +119,7 @@ class Contact extends Component {
             </Grid>
           </Grid> */}
         </Wrapper>
-      </Fragment >
+      </Fragment>
     );
   }
 }
