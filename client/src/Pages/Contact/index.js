@@ -1,13 +1,15 @@
 import React, { Component, Fragment } from "react";
 import Wrapper from "../../Component/Wrapper";
 import { TextField, Typography, Button, Grid } from "@material-ui/core/";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import EmailIcon from "@material-ui/icons/Email";
 import "./style.css";
 
 const styles = {
   text: {
     marginBottom: 10
   },
-  message: {},
   form: {
     display: "flex",
     flexDirection: "column",
@@ -17,6 +19,21 @@ const styles = {
   },
   spacing: {
     padding: "0.5rem"
+  },
+  linkedinIcon: {
+    fontSize: 60,
+    margin: 20,
+    color: "2477B5"
+  },
+  githubIcon: {
+    fontSize: 60,
+    margin: 20,
+    color: "23292D"
+  },
+  mailIcon: {
+    fontSize: 60,
+    margin: 20,
+    color: '1878D4'
   }
 };
 
@@ -46,13 +63,19 @@ class Contact extends Component {
             </h7>
             <br></br>
             <h7 style={styles.spacing}>
-              <a href={"mailto:" + "kamzh1988@gmail.com"}>Email</a>
+              <a href={"mailto:" + "kamzh1988@gmail.com"}>
+                <EmailIcon color="inherit" style={styles.mailIcon} />
+              </a>
             </h7>
             <h7 style={styles.spacing}>
-              <a href="https://www.linkedin.com/in/kinzhao/">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/kinzhao/">
+                <LinkedInIcon style={styles.linkedinIcon} />
+              </a>
             </h7>
             <h7 style={styles.spacing}>
-              <a href="https://github.com/kamzh88">Github</a>
+              <a href="https://github.com/kamzh88">
+                <GitHubIcon style={styles.githubIcon} />
+              </a>
             </h7>
           </div>
 
