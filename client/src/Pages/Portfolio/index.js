@@ -8,10 +8,15 @@ const styles = {
   card: {
     backgroundColor: `rgba(255, 255, 255, 0.55)`,
     width: "auto",
-    margin: 5,
+    margin: 10,
     textAlign: "justify",
-    padding: "1rem"
+    padding: "25px",
+    border: "1px solid grey",
+    borderRadius: "5px"
   },
+  // card:hover: {
+  //   transform: 'scale(1.05)'
+  // }
   text: {
     fontWeight: "bold"
   },
@@ -25,6 +30,14 @@ class Portfolio extends Component {
     data: data
   };
 
+  changeBackground = e => {
+    e.target.style.transform = `scale(1.05)`;
+  };
+
+  resetBackground = e => {
+    e.target.style.transform = `scale(1)`;
+  }
+
   render() {
     const { data } = this.state;
 
@@ -34,13 +47,19 @@ class Portfolio extends Component {
           <Typography variant="h6">Portfolio</Typography>
 
           {data.map((project, index) => (
-            <Card key={index} style={styles.card}>
+            <Card
+              key={index}
+              style={styles.card}
+              onMouseEnter={this.changeBackground}
+              onMouseLeave={this.resetBackground}
+            >
               <div style={styles.heading}>{project.name}</div>
               <br></br>
               <div>
                 {project.summary ? (
                   <p>
-                    <span style={styles.text}>Summary:</span><br></br>
+                    <span style={styles.text}>Summary:</span>
+                    <br></br>
                     {project.summary}
                   </p>
                 ) : (
