@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
 import Wrapper from "../../Component/Wrapper";
-import { TextField, Typography, Button, Grid } from "@material-ui/core/";
+import { Typography } from "@material-ui/core/";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from "@material-ui/icons/Email";
@@ -33,7 +33,7 @@ const styles = {
   mailIcon: {
     fontSize: 60,
     margin: 20,
-    color: '1878D4'
+    color: "1878D4"
   }
 };
 
@@ -53,10 +53,7 @@ class Contact extends Component {
 
     return (
       <Fragment>
-        <Wrapper>
-          <Typography variant="h6">Contact Infomation:</Typography>
-          <br></br>
-
+        <Wrapper title="Contact Information">
           <div>
             <h7>
               Phone Number: <a href="tel:862-208-2672">(862)-208-2672</a>

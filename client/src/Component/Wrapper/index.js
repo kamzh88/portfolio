@@ -11,12 +11,13 @@ const styles = {
 
 class Wrapper extends Component {
   render() {
+
     return (
       <Fragment>
         <Container fluid>
           <Row className="justify-content-md-center">
             <Card className="text-center">
-              <Card.Header style={styles.heading}>Kin Kam Zhao</Card.Header>
+              <Card.Header style={styles.heading}>{this.props.title}</Card.Header>
               <Card.Body>{this.props.children}</Card.Body>
             </Card>
           </Row>

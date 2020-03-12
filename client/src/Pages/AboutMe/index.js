@@ -32,13 +32,9 @@ class AboutMe extends Component {
     return (
       <Fragment>
         <Wrapper
+        title={"About Me"}
         >
           <Container>
-            <Row>
-              <Col lg={12}>
-                <h3 style={styles.title}>About Me</h3>
-              </Col>
-            </Row>
             <Row>
               <Col sm={'auto'} md={3} lg={3}>
                 {this.state.photo}
