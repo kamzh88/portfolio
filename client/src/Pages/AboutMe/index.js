@@ -23,15 +23,16 @@ class AboutMe extends Component {
               <Col sm={"auto"} md={8} lg={8} className="text">
                 {
                   (this.text = `
-                    My name is Kin Kam Zhao but everyone call me Kam. I am a full Stack Web Developer 
+                    My name is Kin Kam Zhao but everyone call me Kam.  I am a Full Stack Software Engineer
                     leveraging a background in the service industry to create meaningful web applications.  
                     Graudate with a bachelor degree majoring in finance.  Earned a certificate in 
                     Full Stack Development from Rutgers University, with newly developed skills 
-                    in JavaScript, HTML, CSS, node.js, and React.js.  A versatile problem solver.  
+                    in React.js, JavaScript, HTML, CSS, and node.js.  A versatile problem solver.  
                     In a recent project I created an app that will help managers keep track of their employees
                     data and help schedule the employees shifts.  Positioned well to provide unique perspectives 
                     on how end-users interact with websites and software platforms by leveraging my background 
-                    in the service industry and finance.
+                    in the service industry and finance.  I am interested in web development, artificial intelligence, 
+                    machine learning, and data science.
                     `)
                 }
               </Col>

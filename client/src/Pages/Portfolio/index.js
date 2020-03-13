@@ -22,14 +22,14 @@ class Portfolio extends Component {
     data: data
   };
 
-  changeBackground = e => {
-    console.log(e.target);
-    e.target.style.transform = `scale(1.05)`;
-  };
+  // changeBackground = e => {
+  //   console.log(e.target);
+  //   e.target.style.transform = `scale(1.05)`;
+  // };
 
-  resetBackground = e => {
-    e.target.style.transform = `translateZ(0)`;
-  };
+  // resetBackground = e => {
+  //   e.target.style.transform = `translateZ(0)`;
+  // };
 
   render() {
     const { data } = this.state;
