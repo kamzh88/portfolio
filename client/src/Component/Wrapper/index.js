@@ -2,12 +2,7 @@ import React, { Component, Fragment } from "react";
 import { Card, Container, Row } from "react-bootstrap";
 import "./style.css";
 
-const styles = {
-  heading: {
-    fontWeight: 900,
-    fontSize: "2rem"
-  }
-};
+
 
 class Wrapper extends Component {
   render() {
@@ -17,7 +12,7 @@ class Wrapper extends Component {
         <Container fluid>
           <Row className="justify-content-md-center">
             <Card className="text-center">
-              <Card.Header style={styles.heading}>{this.props.title}</Card.Header>
+              <Card.Header className="heading">{this.props.title}</Card.Header>
               <Card.Body>{this.props.children}</Card.Body>
             </Card>
           </Row>

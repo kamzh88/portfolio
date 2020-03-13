@@ -1,0 +1,13 @@
+.text {
+  margin-bottom: 10;
+}
+.mailIcon {
+  font-size: 60;
+  margin: 20;
+  color: #1878d4;
+}
+@media only screen and (max-width: 327px) {
+  .phone {
+    font-size: 0.9rem;
+  }
+}

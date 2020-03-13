@@ -1,3 +1,12 @@
 .nav-link.active {
     background-color: #6790B0!important;
 }
+
+@media only screen and (max-width: 360px) {
+    .navbar-brand{
+        font-size: .9rem;
+    }
+    .nav-link{
+        font-size: .62rem;
+    }
+  }

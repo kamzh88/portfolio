@@ -1,0 +1,22 @@
+.image {
+  max-height: 15rem;
+}
+
+.text {
+  text-align: left;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 767px) {
+  .image {
+    max-height: 11rem;
+    margin: 1rem;
+  }
+  .position {
+    margin: auto;
+  }
+  .text {
+    text-align: left;
+    font-weight: 600;
+  }
+}
