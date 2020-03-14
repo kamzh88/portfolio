@@ -13,23 +13,23 @@ const styles = {
     textAlign: "left",
     padding: "25px",
     border: "1px solid grey",
-    borderRadius: "5px"
+    borderRadius: "5px",
+    transform: 'scale(1)'
   }
 };
 
 class Portfolio extends Component {
   state = {
-    data: data
+    data: data,
   };
 
-  // changeBackground = e => {
-  //   console.log(e.target);
-  //   e.target.style.transform = `scale(1.05)`;
-  // };
+  changeBackground = e => {
+    e.target.style.transform = `scale(1.01)`;
+  };
 
-  // resetBackground = e => {
-  //   e.target.style.transform = `translateZ(0)`;
-  // };
+  resetBackground = e => {
+    e.target.style.transform = `scale(1)`;
+  };
 
   render() {
     const { data } = this.state;
@@ -41,10 +41,13 @@ class Portfolio extends Component {
             <Card
               key={index}
               style={styles.card}
-              onMouseEnter={this.changeBackground}
-              onMouseLeave={this.resetBackground}
+              onMouseOver={this.changeBackground}
+              onMouseOut={this.resetBackground}
             >
-              <ProjectInfo data={project}></ProjectInfo>
+              <ProjectInfo 
+              data={project}
+              //  className="card"
+              ></ProjectInfo>
             </Card>
           ))}
         </Wrapper>
