@@ -5,7 +5,7 @@ const styles = {
   card: {
     padding: "10px",
     border: "1px solid grey",
-    borderRadius: "1px"
+    borderRadius: "1px",
   },
   text: {
     fontWeight: "bold"
