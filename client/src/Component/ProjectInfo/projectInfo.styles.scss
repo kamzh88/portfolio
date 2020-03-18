@@ -1,0 +1,46 @@
+.title {
+  font-family: "Bungee Inline", cursive;
+  font-size: 2rem;
+}
+
+.project-item {
+  width: 90%;
+  margin: auto;
+  border: 1px solid grey;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  &:hover {
+    transform: scale(1.01);
+  }
+
+  .content {
+    padding: 1rem;
+    margin: auto;
+    border-radius: 1px;
+    border: 1px solid grey;
+    text-align: left;
+
+    .grid {
+      display: grid;
+
+      .projectUrl {
+        width: 12rem;
+
+        .projectLink {
+          margin-right: 1rem;
+          &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+          }
+        }
+
+        .gitLink {
+          &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

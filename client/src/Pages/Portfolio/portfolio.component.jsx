@@ -1,120 +1,126 @@
 import React, { Component, Fragment } from "react";
 import Wrapper from "../../Component/Wrapper";
 import data from "../../Images/data.json";
-import ProjectInfo from "../../Component/ProjectInfo/projectInfo.component";
+// import ProjectInfo from "../../Component/ProjectInfo/projectInfo.component";
 import { Typography, Card } from "@material-ui/core/";
 import "./portfolio.styles.scss";
+import Directory from "../../Component/Directory/directory.component";
 
 const Portfolio = () => (
-  <Wrapper title={"Portfolio"}>
-    <div
-      className="project-item"
-      style={{ backgroundColor: `rgba(255, 255, 255, 0.55)` }}
-    >
-      <div className="content">
-        <h1 className="title">Title</h1>
-        <div className="grid">
-          <span className="summary">Summary:</span>
-          <span className="tools">Tools:</span>
-          <span className="projectUrl">
-            <a  href={`www.google.com`}>
-              See Project
-            </a>
-          </span>
-        </div>
-      </div>
-    </div>
-    <div
-      className="project-item"
-      style={{ backgroundColor: `rgba(255, 255, 255, 0.55)` }}
-    >
-      <div className="content">
-        <h1 className="title">Title</h1>
-        <div className="grid">
-          <span className="summary">Summary</span>
-          <span className="tools">Tools</span>
-          <span className="projectUrl">
-            <a href={`www.google.com`}>See Project</a>
-          </span>
-        </div>
-      </div>
-    </div>
-    <div
-      className="project-item"
-      style={{ backgroundColor: `rgba(255, 255, 255, 0.55)` }}
-    >
-      <div className="content">
-        <h1 className="title">Title</h1>
-        <div className="grid">
-          <span className="summary">Summary</span>
-          <span className="tools">Tools</span>
-          <span className="projectUrl">
-            <a href={`www.google.com`}>See Project</a>
-          </span>
-        </div>
-      </div>
-    </div>
-    <div
-      className="project-item"
-      style={{ backgroundColor: `rgba(255, 255, 255, 0.55)` }}
-    >
-      <div className="content">
-        <h1 className="title">Title</h1>
-        <div className="grid">
-          <span className="summary">Summary</span>
-          <span className="tools">Tools</span>
-          <span className="projectUrl">
-            <a href={`www.google.com`}>See Project</a>
-          </span>
-        </div>
-      </div>
-    </div>
-    <div
-      className="project-item"
-      style={{ backgroundColor: `rgba(255, 255, 255, 0.55)` }}
-    >
-      <div className="content">
-        <h1 className="title">Title</h1>
-        <div className="grid">
-          <span className="summary">Summary</span>
-          <span className="tools">Tools</span>
-          <span className="projectUrl">
-            <a href={`www.google.com`}>See Project</a>
-          </span>
-        </div>
-      </div>
-    </div>
-    <div
-      className="project-item"
-      style={{ backgroundColor: `rgba(255, 255, 255, 0.55)` }}
-    >
-      <div className="content">
-        <h1 className="title">Title</h1>
-        <div className="grid">
-          <span className="summary">Summary</span>
-          <span className="tools">Tools</span>
-          <span className="projectUrl">
-            <a href={`www.google.com`}>See Project</a>
-          </span>
-        </div>
-      </div>
-    </div>
-    <div
-      className="project-item"
-      style={{ backgroundColor: `rgba(255, 255, 255, 0.55)` }}
-    >
-      <div className="content">
-        <h1 className="title">Title</h1>
-        <div className="grid">
-          <span className="summary">Summary</span>
-          <span className="tools">Tools</span>
-          <span className="projectUrl">
-            <a href={`www.google.com`}>See Project</a>
-          </span>
-        </div>
-      </div>
-    </div>
-  </Wrapper>
+  <div>
+    <Wrapper title={"Portfolio"}>
+      <Directory />
+    </Wrapper>
+  </div>
+  // <Wrapper title={"Portfolio"}>
+  //   <div
+  //     className="project-item"
+  //     style={{ backgroundColor: `rgba(255, 255, 255, 0.55)` }}
+  //   >
+  //     <div className="content">
+  //       <h1 className="title">Title</h1>
+  //       <div className="grid">
+  //         <span className="summary">Summary:</span>
+  //         <span className="tools">Tools:</span>
+  //         <span className="projectUrl">
+  //           <a  href={`www.google.com`}>
+  //             See Project
+  //           </a>
+  //         </span>
+  //       </div>
+  //     </div>
+  //   </div>
+  //   <div
+  //     className="project-item"
+  //     style={{ backgroundColor: `rgba(255, 255, 255, 0.55)` }}
+  //   >
+  //     <div className="content">
+  //       <h1 className="title">Title</h1>
+  //       <div className="grid">
+  //         <span className="summary">Summary</span>
+  //         <span className="tools">Tools</span>
+  //         <span className="projectUrl">
+  //           <a href={`www.google.com`}>See Project</a>
+  //         </span>
+  //       </div>
+  //     </div>
+  //   </div>
+  //   <div
+  //     className="project-item"
+  //     style={{ backgroundColor: `rgba(255, 255, 255, 0.55)` }}
+  //   >
+  //     <div className="content">
+  //       <h1 className="title">Title</h1>
+  //       <div className="grid">
+  //         <span className="summary">Summary</span>
+  //         <span className="tools">Tools</span>
+  //         <span className="projectUrl">
+  //           <a href={`www.google.com`}>See Project</a>
+  //         </span>
+  //       </div>
+  //     </div>
+  //   </div>
+  //   <div
+  //     className="project-item"
+  //     style={{ backgroundColor: `rgba(255, 255, 255, 0.55)` }}
+  //   >
+  //     <div className="content">
+  //       <h1 className="title">Title</h1>
+  //       <div className="grid">
+  //         <span className="summary">Summary</span>
+  //         <span className="tools">Tools</span>
+  //         <span className="projectUrl">
+  //           <a href={`www.google.com`}>See Project</a>
+  //         </span>
+  //       </div>
+  //     </div>
+  //   </div>
+  //   <div
+  //     className="project-item"
+  //     style={{ backgroundColor: `rgba(255, 255, 255, 0.55)` }}
+  //   >
+  //     <div className="content">
+  //       <h1 className="title">Title</h1>
+  //       <div className="grid">
+  //         <span className="summary">Summary</span>
+  //         <span className="tools">Tools</span>
+  //         <span className="projectUrl">
+  //           <a href={`www.google.com`}>See Project</a>
+  //         </span>
+  //       </div>
+  //     </div>
+  //   </div>
+  //   <div
+  //     className="project-item"
+  //     style={{ backgroundColor: `rgba(255, 255, 255, 0.55)` }}
+  //   >
+  //     <div className="content">
+  //       <h1 className="title">Title</h1>
+  //       <div className="grid">
+  //         <span className="summary">Summary</span>
+  //         <span className="tools">Tools</span>
+  //         <span className="projectUrl">
+  //           <a href={`www.google.com`}>See Project</a>
+  //         </span>
+  //       </div>
+  //     </div>
+  //   </div>
+  //   <div
+  //     className="project-item"
+  //     style={{ backgroundColor: `rgba(255, 255, 255, 0.55)` }}
+  //   >
+  //     <div className="content">
+  //       <h1 className="title">Title</h1>
+  //       <div className="grid">
+  //         <span className="summary">Summary</span>
+  //         <span className="tools">Tools</span>
+  //         <span className="projectUrl">
+  //           <a href={`www.google.com`}>See Project</a>
+  //         </span>
+  //       </div>
+  //     </div>
+  //   </div>
+  // </Wrapper>
 );
 
 export default Portfolio;

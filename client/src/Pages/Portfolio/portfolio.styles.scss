@@ -11,33 +11,33 @@
 //   }
 // }
 
-.project-item {
-  width: 90%;
-  margin: auto;
-  border: 1px solid grey;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  &:hover {
-    transform: scale(1.01);
-  }
+// .project-item {
+//   width: 90%;
+//   margin: auto;
+//   border: 1px solid grey;
+//   padding: 1rem;
+//   margin-bottom: 1rem;
+//   &:hover {
+//     transform: scale(1.01);
+//   }
 
-  .content {
-    padding: 1rem;
-    margin: auto;
-    border-radius: 1px;
-    border: 1px solid grey;
-    text-align: left;
+//   .content {
+//     padding: 1rem;
+//     margin: auto;
+//     border-radius: 1px;
+//     border: 1px solid grey;
+//     text-align: left;
 
-    .grid {
-      display: grid;
+//     .grid {
+//       display: grid;
 
-      .projectUrl {
-       width:9%;
-        &:hover {
-          cursor: pointer;
-          text-decoration: underline;
-        }
-      }
-    }
-  }
-}
+//       .projectUrl {
+//        width:9%;
+//         &:hover {
+//           cursor: pointer;
+//           text-decoration: underline;
+//         }
+//       }
+//     }
+//   }
+// }
