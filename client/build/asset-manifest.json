@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.14bb2348.chunk.css",
+    "main.css": "/static/css/main.8d55cac8.chunk.css",
     "main.js": "/static/js/main.0c3c22e9.chunk.js",
     "main.js.map": "/static/js/main.0c3c22e9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ef76e641.js",
@@ -9,10 +9,10 @@
     "static/js/2.a0ec54aa.chunk.js": "/static/js/2.a0ec54aa.chunk.js",
     "static/js/2.a0ec54aa.chunk.js.map": "/static/js/2.a0ec54aa.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5586b444c894fa320c332001665390e3.js": "/precache-manifest.5586b444c894fa320c332001665390e3.js",
+    "precache-manifest.2528b0d4a8e8afd8428d9ed14202b1dd.js": "/precache-manifest.2528b0d4a8e8afd8428d9ed14202b1dd.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
-    "static/css/main.14bb2348.chunk.css.map": "/static/css/main.14bb2348.chunk.css.map",
+    "static/css/main.8d55cac8.chunk.css.map": "/static/css/main.8d55cac8.chunk.css.map",
     "static/js/2.a0ec54aa.chunk.js.LICENSE.txt": "/static/js/2.a0ec54aa.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/luca-bravo-_QdFx92MO2U-unsplash.b6b9df2c.jpg",
     "static/media/profile-pic.jpg": "/static/media/profile-pic.a87d4194.jpg"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.ef76e641.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.a0ec54aa.chunk.js",
-    "static/css/main.14bb2348.chunk.css",
+    "static/css/main.8d55cac8.chunk.css",
     "static/js/main.0c3c22e9.chunk.js"
   ]
 }
