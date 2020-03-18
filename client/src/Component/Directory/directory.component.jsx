@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import data from "../../Images/data.json";
 import ProjectInfo from "../ProjectInfo/projectInfo.component";
+import './directory.styles.scss';
 
 class Directory extends Component {
   state = {
