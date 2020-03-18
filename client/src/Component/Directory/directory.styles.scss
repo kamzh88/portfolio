@@ -8,3 +8,10 @@
     transform: scale(1.05);
   }
 }
+
+@media only screen and (max-width: 446px) {
+  .project-item {
+    width: 100%;
+    padding: .4rem;
+  }
+}
