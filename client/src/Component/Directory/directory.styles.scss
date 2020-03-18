@@ -1,0 +1,10 @@
+.project-item {
+  width: 90%;
+  margin: auto;
+  border: 1px solid grey;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
