@@ -6,7 +6,7 @@ import Directory from "../../Component/Directory/directory.component";
 const Portfolio = () => (
   <div>
     <Wrapper title={"Portfolio"}>
-      <Directory />
+      <Directory className="card" />
     </Wrapper>
   </div>
 );

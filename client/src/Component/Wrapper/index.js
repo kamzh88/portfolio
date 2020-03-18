@@ -9,9 +9,9 @@ class Wrapper extends Component {
       <Fragment>
         <Container fluid>
           <Row className="justify-content-md-center">
-            <Card className="text-center">
+            <Card className="text-center" >
               <Card.Header className="heading">{this.props.title}</Card.Header>
-              <Card.Body>{this.props.children}</Card.Body>
+              <Card.Body className="card-body" >{this.props.children}</Card.Body>
             </Card>
           </Row>
         </Container>

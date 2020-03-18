@@ -11,12 +11,12 @@ class Directory extends Component {
   render() {
     const { data } = this.state;
     return (
-      <div>
+      <div className="card-info">
         {data.map((project, index) => (
           <div
             key={index}
             className="project-item"
-            style={{ backgroundColor: `rgba(255, 255, 255, 0.55)` }}
+            // style={{ backgroundColor: `rgba(255, 255, 255, 0.55)` }}
           >
             <ProjectInfo project={project} />
           </div>
