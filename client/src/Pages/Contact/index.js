@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from "react";
 import Wrapper from "../../Component/Wrapper";
-import { Typography } from "@material-ui/core/";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from "@material-ui/icons/Email";
