@@ -5,7 +5,7 @@ body {
 
   @media only screen and (max-width: 446px) {
     body { 
-      background: url("./Images/fezbot2000-deNAgNLr0b8-unsplash.jpg") no-repeat center fixed; 
+      background: url("./Images/fezbot2000-deNAgNLr0b8-unsplash.jpg") center fixed; 
       background-size: cover;
     }
   }

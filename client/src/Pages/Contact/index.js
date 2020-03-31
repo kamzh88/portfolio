@@ -52,25 +52,19 @@ class Contact extends Component {
       <Fragment>
         <Wrapper title="Contact Information">
           <div>
-            <h7 className="phone">
+            <div className="phone">
               Phone Number: <a href="tel:862-208-2672">(862)-208-2672</a>
-            </h7>
+            </div>
             <br></br>
-            <h7>
               <a href={"mailto:" + "kamzh1988@gmail.com"}>
                 <EmailIcon color="inherit" style={styles.mailIcon} />
               </a>
-            </h7>
-            <h7>
               <a href="https://www.linkedin.com/in/kinzhao/">
                 <LinkedInIcon style={styles.linkedinIcon} />
               </a>
-            </h7>
-            <h7>
               <a href="https://github.com/kamzh88">
                 <GitHubIcon style={styles.githubIcon} />
               </a>
-            </h7>
           </div>
 
           {/* <Grid container spacing={3}>
