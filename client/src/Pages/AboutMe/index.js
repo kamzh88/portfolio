@@ -25,7 +25,7 @@ class AboutMe extends Component {
                   (this.text = `
                     My name is Kin Kam Zhao but everyone call me Kam.  I am a Full Stack Software Engineer
                     leveraging a background in the service industry to create meaningful web applications.  
-                    Graudate with a bachelor degree majoring in finance.  Earned a certificate in 
+                    Graudated with a bachelor degree majoring in finance.  Earned a certificate in 
                     Full Stack Development from Rutgers University, with newly developed skills 
                     in React.js, JavaScript, HTML, CSS, and node.js.  A versatile problem solver.  
                     In a recent project I created an app that will help managers keep track of their employees
