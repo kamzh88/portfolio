@@ -1,17 +1,39 @@
-body { 
-    background-image: url("./Images/luca-bravo-_QdFx92MO2U-unsplash.jpg");
+body {
+  background-image: url("./Images/luca-bravo-_QdFx92MO2U-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 446px) {
+  body {
+    background-image: url("./Images/fezbot2000-deNAgNLr0b8-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
   }
 
-  @media only screen and (max-width: 446px) {
-    body { 
-      background-image: url("./Images/fezbot2000-deNAgNLr0b8-unsplash.jpg"); 
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
+  @supports (
+    background-image:
+      filter(url("./Images/fezbot2000-deNAgNLr0b8-unsplash.jpg"), blur(1px))
+  ) {
+    body {
+      transform: translateZ(0);
+    }
+    body-enhanced {
+      animation: sharpen 0.5s both;
+    }
+    @keyframes sharpen {
+      from {
+        background-image: filter("./Images/fezbot2000-deNAgNLr0b8-unsplash.jpg"),
+          blur(20px);
+      }
+      to {
+        background-image: filter("./Images/fezbot2000-deNAgNLr0b8-unsplash.jpg"),
+          blur(0px);
+      }
     }
   }
+}
