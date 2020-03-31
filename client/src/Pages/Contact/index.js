@@ -33,40 +33,38 @@ const styles = {
   }
 };
 
-class Contact extends Component {
-  state = {
-    name: "",
-    email: "",
-    message: ""
-  };
+const Contact = () => (
+  // state = {
+  //   name: "",
+  //   email: "",
+  //   message: ""
+  // };
 
-  handleChange = key => e => {
-    this.setState({ [key]: e.target.value });
-  };
+  // handleChange = key => e => {
+  //   this.setState({ [key]: e.target.value });
+  // };
 
-  render() {
-    // const { name, email, message } = this.state;
+  // const { name, email, message } = this.state;
 
-    return (
-      <Fragment>
-        <Wrapper title="Contact Information">
-          <div>
-            <div className="phone">
-              Phone Number: <a href="tel:862-208-2672">(862)-208-2672</a>
-            </div>
-            <br></br>
-              <a href={"mailto:" + "kamzh1988@gmail.com"}>
-                <EmailIcon color="inherit" style={styles.mailIcon} />
-              </a>
-              <a href="https://www.linkedin.com/in/kinzhao/">
-                <LinkedInIcon style={styles.linkedinIcon} />
-              </a>
-              <a href="https://github.com/kamzh88">
-                <GitHubIcon style={styles.githubIcon} />
-              </a>
-          </div>
+  <Fragment>
+    <Wrapper title="Contact Information">
+      <div>
+        <div className="phone">
+          Phone Number: <a href="tel:862-208-2672">(862)-208-2672</a>
+        </div>
+        <br></br>
+        <a href={"mailto:" + "kamzh1988@gmail.com"}>
+          <EmailIcon color="inherit" style={styles.mailIcon} />
+        </a>
+        <a href="https://www.linkedin.com/in/kinzhao/">
+          <LinkedInIcon style={styles.linkedinIcon} />
+        </a>
+        <a href="https://github.com/kamzh88">
+          <GitHubIcon style={styles.githubIcon} />
+        </a>
+      </div>
 
-          {/* <Grid container spacing={3}>
+      {/* <Grid container spacing={3}>
             <Grid item xs={12}>
               <Typography variant="h5">
                 Contact Me
@@ -128,10 +126,8 @@ class Contact extends Component {
               </form>
             </Grid>
           </Grid> */}
-        </Wrapper>
-      </Fragment>
-    );
-  }
-}
+    </Wrapper>
+  </Fragment>
+);
 
 export default Contact;
