@@ -5,7 +5,7 @@ const PROJECT_DATA = [
     projectLink: "https://fast-thicket-99418.herokuapp.com/portfolio",
     summary: "Help showcase all of my projects.",
     tools:
-      "ReactJS, Express, Node, Google Fonts, Nodemon, Material UI, Sass, NPM, Heroku, VsCode, and Github",
+      "ReactJS, Redux, Express, Node, Google Fonts, Nodemon, Material UI, Sass, NPM, Heroku, VsCode, and Github",
     gitLink: "https://github.com/kamzh88/portfolio"
   },
   {
