@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React from "react";
 import "./projectInfo.styles.scss";
 
 const ProejctInfo = ({ project }) => (

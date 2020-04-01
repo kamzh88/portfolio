@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Fragment } from "react";
 import { Card, Container, Row } from "react-bootstrap";
 import "./style.css";
 

@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
 import Wrapper from "../../Component/Wrapper";
-import { Container, Row, Image, Col, Card } from "react-bootstrap";
+import { Container, Row, Image, Col } from "react-bootstrap";
 import "./style.css";
 import image from "../../Images/profile-pic.jpg";
 

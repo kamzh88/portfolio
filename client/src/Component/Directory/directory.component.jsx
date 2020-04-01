@@ -1,29 +1,27 @@
-import React, { Component } from "react";
-import data from "../../Images/data.json";
+import React from "react";
+import { connect } from "react-redux";
+import { createStructuredSelector } from "reselect";
+
+import { selectProject } from "../../redux/project/project.selectors";
+
 import ProjectInfo from "../ProjectInfo/projectInfo.component";
-import './directory.styles.scss';
 
-class Directory extends Component {
-  state = {
-    data: data
-  };
+import "./directory.styles.scss";
 
-  render() {
-    const { data } = this.state;
-    return (
-      <div className="card-info">
-        {data.map((project, index) => (
-          <div
-            key={index}
-            className="project-item"
-            // style={{ backgroundColor: `rgba(255, 255, 255, 0.55)` }}
-          >
-            <ProjectInfo project={project} />
-          </div>
-        ))}
-      </div>
-    );
-  }
-}
+const Directory = ({ projects }) => {
+  return (
+    <div className="card-info">
+      {projects.map((project, index) => (
+        <div key={index} className="project-item">
+          <ProjectInfo project={project} />
+        </div>
+      ))}
+    </div>
+  );
+};
 
-export default Directory;
+const mapStateToProps = createStructuredSelector({
+  projects: selectProject
+});
+
+export default connect(mapStateToProps)(Directory);

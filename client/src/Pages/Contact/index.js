@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Fragment } from "react";
 import Wrapper from "../../Component/Wrapper";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
@@ -31,7 +31,7 @@ const Contact = () => (
           Phone Number: <a href="tel:862-208-2672">(862)-208-2672</a>
         </div>
         <br></br>
-        <a href={"mailto:" + "kamzh1988@gmail.com"}>
+        <a href={`mailto: kamzh1988@gmail.com`}>
           <EmailIcon color="inherit" style={styles.mailIcon} />
         </a>
         <a href="https://www.linkedin.com/in/kinzhao/">
