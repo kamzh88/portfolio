@@ -11,6 +11,8 @@ body {
     background-image: url("./Images/fezbot2000-deNAgNLr0b8-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
+  }
+  body:before{
+    position: fixed;
   }
 }
