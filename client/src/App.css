@@ -8,12 +8,8 @@ body {
 
 @media only screen and (max-width: 600px) {
   body {
-    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("./Images/fezbot2000-deNAgNLr0b8-unsplash.jpg");
   }
-body::before{
-  position: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 }
