@@ -9,9 +9,6 @@ body {
 @media only screen and (max-width: 446px) {
   body {
     background-image: url("./Images/fezbot2000-deNAgNLr0b8-unsplash.jpg");
-    width: 100%;
-    height: 100%;
-    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
