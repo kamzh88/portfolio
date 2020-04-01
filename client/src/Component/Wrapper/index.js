@@ -2,8 +2,8 @@ import React, { Fragment } from "react";
 import { Card, Container, Row } from "react-bootstrap";
 import "./style.css";
 
-const Wrapper = (props) => (
-  <Fragment>
+const Wrapper = props => (
+  <div className="body">
     <Container fluid>
       <Row className="justify-content-md-center">
         <Card className="text-center">
@@ -12,7 +12,7 @@ const Wrapper = (props) => (
         </Card>
       </Row>
     </Container>
-  </Fragment>
+  </div>
 );
 
 export default Wrapper;
